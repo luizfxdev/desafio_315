@@ -112,7 +112,7 @@ Saída: [4, 4, 4]
 
 ### Estrutura de Arquivos
 ```
-projeto/
+desafio_315/
 ├── index.html          # Interface principal
 ├── styles.css          # Estilos visuais
 ├── script.js           # Lógica do desafio
@@ -125,8 +125,8 @@ projeto/
 
 1. **Clone ou baixe o projeto**
    ```bash
-   git clone https://github.com/seu-usuario/gizmo-multiversal.git
-   cd gizmo-multiversal
+   git clone https://github.com/seu-usuario/desafio_315.git
+   cd desafio_315
    ```
 
 2. **Adicione os arquivos de mídia**
