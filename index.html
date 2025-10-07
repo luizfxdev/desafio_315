@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Multiversal - Miles Morales</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video id="background-video" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <h1 class="title">Gizmo Multiversal</h1>
+      <p class="description">Decodifique os vetores dimensionais para reunir Miles e Gwen através do Aranhaverso</p>
+
+      <!-- Input de Entrada -->
+      <div class="input-section">
+        <label for="coordinates-input">Coordenadas Dimensionais</label>
+        <input
+          type="text"
+          id="coordinates-input"
+          placeholder="Ex: 0,0,1,2,0,1,1,2"
+          aria-label="Digite as coordenadas separadas por vírgula"
+        />
+      </div>
+
+      <!-- Botões de Ação -->
+      <div class="buttons-section">
+        <button class="action-btn" id="decipher-btn" style="--clr: #00ff55">
+          <span>DECIFRAR</span>
+          <i></i>
+        </button>
+        <button class="action-btn" id="return-btn" style="--clr: #ff0055">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h2>Resultado da Decodificação</h2>
+        <div id="result-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
